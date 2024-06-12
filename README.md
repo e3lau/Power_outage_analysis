@@ -1,4 +1,4 @@
-#POWER OUTAGE ANALYSIS
+# POWER OUTAGE ANALYSIS
 A UCSD DSC 80 Project, by Ethan Lau
 
 ## Introduction
