@@ -137,6 +137,114 @@ There is an observed TVD of 0.315 with a pvalue of 0, indicating a strong reject
 
 
 
+#### 3.2.2 Customers Affected on Outage Duration
+- Null Hypothesis: The distribution of Customers Affected is the same when Duration is missing vs not missing.
+- Alternate Hypothesis: The distribution of Customers Affected is different when Duration is missing vs not missing.
+
+There is an observed Difference in Means of -20599.733 with a pvalue of 0.6181, indicating we cannot reject the null hypothesis at a 95% confidence level. Therefore, the distribution of Customers Affected is different when Duration is missing vs not missing.
+
+## Hypothesis Testing
+
+We will test whether the average outage duration differ between different climate regions. The relevant columns for this test are OUTAGE.DURATION and CLIMATE.REGION.
+- Null Hypothesis (H0): The average outage duration is the same for all climate regions.
+- Alternative Hypothesis (H1): The average outage duration is different for at least one climate region compared to others.
+
+We will use the ANOVA (Analysis of Variance) test to compare the means of outage durations across different climate regions. ANOVA is suitable here because we are comparing the means of more than two groups.
+
+Significance Level
+We will use a significance level of 0.05.
+
+The p-value is 0.0002, indicating we have a strong rejection of the null hypothesis at a 95% confidence level. Therefore, the average outage duration is different for at least one climate region compared to others.
+
+
+
+
+
+
+
+
+
+
+
+
+## Framing a Prediction Problem
+
+Prediction Problem: Predicting the duration of a power outage (OUTAGE.DURATION) based on various demographic and geographical characteristics of the affected area.
+
+Type: Regression
+Response Variable: OUTAGE.DURATION (Duration of the outage in minutes)
+
+
+Justification for Response Variable:
+OUTAGE.DURATION is chosen as the response variable because it directly measures the impact of a power outage in terms of its duration. Understanding the factors influencing outage duration can help utilities and policymakers in allocating resources more effectively for outage management and restoration efforts.
+
+
+Features for Prediction:
+
+Geographical Characteristics:
+- POPULATION (Population in the U.S. state)
+- POPPCT_URBAN (Percentage of the total population represented by the urban population)
+- POPDEN_URBAN (Population density of the urban areas)
+- AREAPCT_URBAN (Percentage of land area represented by the urban areas)
+- PCT_LAND (Percentage of land area in the U.S. state)
+
+Demographic Characteristics:
+- RES.CUSTOMERS (Annual number of customers served in the residential electricity sector)
+- COM.CUSTOMERS (Annual number of customers served in the commercial electricity sector)
+- IND.CUSTOMERS (Annual number of customers served in the industrial electricity sector)
+- TOTAL.CUSTOMERS (Annual number of total customers served)
+- RES.CUST.PCT (Percentage of residential customers served)
+- COM.CUST.PCT (Percentage of commercial customers served)
+- IND.CUST.PCT (Percentage of industrial customers served)
+- POPPCT_UC (Percentage of the total population represented by the population of the urban clusters)
+- POPDEN_UC (Population density of the urban clusters)
+- AREAPCT_UC (Percentage of land area represented by the urban clusters)
+
+Justification for Features:
+These features are chosen because they represent different aspects of geographical and demographic characteristics that may influence the restoration time of a power outage. For instance, population density and the proportion of urban population might affect the ease of access for repair crews and the complexity of the electrical infrastructure in an area, thus impacting outage duration.
+
+
+Metric for Evaluation: Mean Absolute Error (MAE)
+Justification for Metric: MAE is chosen as the evaluation metric because it provides a straightforward interpretation of the average magnitude of errors in the predicted outage duration. It is easy to understand and useful for comparing the performance of different models. Additionally, MAE is less sensitive to outliers compared to other metrics like Mean Squared Error (MSE).
+
+## Baseline Model
+
+For the baseline model, I'll use a simple linear regression model with two features: "POPULATION" and "POPPCT_URBAN". These features represent demographic and geographical characteristics that might influence the duration of a power outage.
+
+Here's how I'll implement the baseline model using scikit-learn:
+
+Feature Transformation: Since "U.S._STATE" and "NERC.REGION" are categorical variables, I'll encode them using one-hot encoding. For simplicity, I'll ignore other categorical variables for this baseline model.
+
+Model Training: I'll use a simple linear regression model to predict the duration of a power outage based on the transformed features.
+
+
+## Step 7: Final Model
+
+We will improve upon the baseline model by engineering new features, encoding categorical variables, and performing hyperparameter tuning.
+
+Categorical Encoding:
+Encode the CLIMATE.REGION categorical feature using an appropriate method, such as One-Hot Encoding.
+
+Pipeline Implementation:
+Use a Pipeline from sklearn to ensure all steps (feature transformation, encoding, model training) are applied consistently.
+Hyperparameter Tuning:
+
+Use GridSearchCV to search for the best hyperparameters for the chosen model.
+Tune parameters such as tree depth for decision trees or number of estimators for ensemble methods.
+
+Model Evaluation:
+Evaluate the final model using the same unseen and seen datasets as in the baseline model to ensure fair comparison.
+
+Model Selection:
+- Lasso with and without polynomial features
+- Ridge with and without polynomial features
+
+
+
+
+
+
+
 
 
 
