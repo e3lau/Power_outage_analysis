@@ -61,3 +61,18 @@ In regards to the missingness of particular column values from out selected pool
 
 It is important to note that OUTAGE.DURATION has been converted to hours.
 
+Here's the provided dataframe converted into a markdown table format:
+
+|   OBS |   YEAR |   MONTH | U.S._STATE   | POSTAL.CODE   | NERC.REGION   | CLIMATE.REGION     |   ANOMALY.LEVEL | CLIMATE.CATEGORY   | CAUSE.CATEGORY     |   OUTAGE.DURATION |   ... |   COM.CUST.PCT |   IND.CUST.PCT |   POPULATION |   POPPCT_URBAN |   POPPCT_UC |   POPDEN_URBAN |   POPDEN_UC |   AREAPCT_URBAN |   AREAPCT_UC |   PCT_LAND |
+|------:|-------:|--------:|:--------------|:--------------|:--------------|:--------------------|----------------:|:-------------------|:--------------------|-------------------:|------:|----------------:|----------------:|-------------:|----------------:|-------------:|----------------:|-------------:|-----------:|
+|     1 |   2011 |       7 | Minnesota    | MN            | MRO           | East North Central |            -0.3 | normal             | severe weather      |               51   | ...   |       10.644    |       0.411    |      5348119 |           73.27 |       15.28 |          2279   |      1700.5 |            2.14  |           0.6 |    91.5927 |
+|     2 |   2014 |       5 | Minnesota    | MN            | MRO           | East North Central |            -0.1 | normal             | intentional attack  |                0.0167 | ...   |       10.7916   |       0.37482  |      5457125 |           73.27 |       15.28 |          2279   |      1700.5 |            2.14  |           0.6 |    91.5927 |
+|     3 |   2010 |      10 | Minnesota    | MN            | MRO           | East North Central |            -1.5 | cold               | severe weather      |               50   | ...   |       10.687    |       0.392361 |      5310903 |           73.27 |       15.28 |          2279   |      1700.5 |            2.14  |           0.6 |    91.5927 |
+|     4 |   2012 |       6 | Minnesota    | MN            | MRO           | East North Central |            -0.1 | normal             | severe weather      |               42.5 | ...   |       10.6822   |       0.422355 |      5380443 |           73.27 |       15.28 |          2279   |      1700.5 |            2.14  |           0.6 |    91.5927 |
+|     5 |   2015 |       7 | Minnesota    | MN            | MRO           | East North Central |             1.2 | warm               | severe weather      |               29   | ...   |       10.8113   |       0.367005 |      5489594 |           73.27 |       15.28 |          2279   |      1700.5 |            2.14  |           0.6 |    91.5927 |
+
+This table represents the dataframe with each row corresponding to a different observation (OBS).
+
+
+
+
