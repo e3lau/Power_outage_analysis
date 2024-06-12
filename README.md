@@ -101,6 +101,8 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
 
 
 
+<div style="overflow-x: auto;">
+  
 | NERC.REGION        | ECAR       | RFC        | SERC       | SPP        | MRO        | NPCC       | WECC       | TRE        | FRCC       | FRCC, SERC |
 |--------------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
 | CLIMATE.REGION     |            |            |            |            |            |            |            |            |            |            |
@@ -113,6 +115,8 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
 | Southwest          | NaN        | 0.017      | NaN        | 1.267      | 35.667     | NaN        | 26.589     | NaN        | NaN        | NaN        |
 | West               | NaN        | NaN        | 3.717      | NaN        | NaN        | NaN        | 27.254     | NaN        | NaN        | NaN        |
 | West North Central | NaN        | 0.983      | NaN        | 2.650      | 29.383     | NaN        | 0.727      | NaN        | NaN        | NaN        |
+
+</div>
 
 
 ## Assessment of Missingness
