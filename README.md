@@ -710,3 +710,9 @@ Numerical Columns Evaluated:
 
 The only column which did not pass the fairness test was PODDEN_UC. The observed statistic was 1.419; the p-value is 0.033 at a 95% confidence level, therefore, we reject the null hypothesis. The model's RMSE for population density of urban clusters above 1528.6 is significantly different (higher) compared to those less than 1528.6, indicating potential unfairness in performance.
 
+<iframe
+  src="figs/plotTVD4.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
