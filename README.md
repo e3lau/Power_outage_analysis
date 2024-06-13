@@ -61,6 +61,8 @@ In regards to the missingness of particular column values from out selected pool
 
 It is important to note that OUTAGE.DURATION has been converted to hours.
 
+<div style="overflow-x: auto;">
+
 | OBS | YEAR | MONTH | U.S._STATE | POSTAL.CODE | NERC.REGION | CLIMATE.REGION | ANOMALY.LEVEL | CLIMATE.CATEGORY | CAUSE.CATEGORY | OUTAGE.DURATION | ... | COM.CUST.PCT | IND.CUST.PCT | POPULATION | POPPCT_URBAN | POPPCT_UC | POPDEN_URBAN | POPDEN_UC | AREAPCT_URBAN | AREAPCT_UC | PCT_LAND |
 |-----|------|-------|-------------|--------------|--------------|-----------------|-----------------|------------------|----------------|------------------|-----|--------------|---------------|------------|---------------|------------|--------------|-----------|----------------|-------------|----------|
 | 1   | 2011 | 7.0   | Minnesota   | MN           | MRO          | East North Central | -0.3            | normal           | severe weather | 51.000000        | ... | 10.644005    | 0.411181      | 5348119    | 73.27         | 15.28      | 2279.0       | 1700.5    | 2.14           | 0.6         | 91.592666 |
@@ -69,7 +71,7 @@ It is important to note that OUTAGE.DURATION has been converted to hours.
 | 4   | 2012 | 6.0   | Minnesota   | MN           | MRO          | East North Central | -0.1            | normal           | severe weather | 42.500000        | ... | 10.682239    | 0.422355      | 5380443    | 73.27         | 15.28      | 2279.0       | 1700.5    | 2.14           | 0.6         | 91.592666 |
 | 5   | 2015 | 7.0   | Minnesota   | MN           | MRO          | East North Central | 1.2             | warm             | severe weather | 29.000000        | ... | 10.811320    | 0.367005      | 5489594    | 73.27         | 15.28      | 2279.0       | 1700.5    | 2.14           | 0.6         | 91.592666 |
 
-
+</div>
 
 ### 1.4: Exploratory Data Analysis
 Firstly, our dependent variable is outage duration. This can be calculated by subtracting the outage restoration datetime from the outage start datetime. However, this is redundant given the presence of variable OUTAGE.DURATION—note that both metrics have been verified as being equivalent.
@@ -87,12 +89,43 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
 
 2. Cause differentiations:
     - When comparing the different causes for outages, weather is the most significant reason in quantity. It is also results on average in longer outages when compared to the other causes therefore this likely needs to be controlled for.
+
+<iframe
+  src="figs/plot2.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 3. Number of Customers Affected:
     - There appears to be a somewhat inverse relationship between number of customers affected and outage duration. Likely, the larer number of customers affected, there is more incentive for the company to want to fix the outage. That being said, it is hardly a strong relationship given the pattern density being quite low
+
+<iframe
+  src="figs/plot3.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="figs/plot3-5.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 4. Population Density
     - The weight of population affected by an outage seems to have a minimal affect.
     - Similar to # of customers affected, outage duration decreases as percentage of urban clusters affected increases. Similar justification to wanting to more expiendently deal with larger problems results in faster recovery.
-  
+
+<iframe
+  src="figs/plot4.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+<div style="overflow-x: auto;">
 
 | CLIMATE.REGION       | (-0.001, 0.00208] | (0.00208, 0.00871] | (0.00871, 0.0164] | (0.0164, 0.0243] | (0.0243, 0.0354] | (0.0354, 0.0633] | (0.0633, 1.055] |
 |----------------------|-------------------|--------------------|-------------------|-------------------|-------------------|-------------------|------------------|
@@ -106,6 +139,7 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
 | West                 | 26.175%           | 41.262%            | 19.522%           | 22.511%           | 37.860%           | 52.617%           | 119.704%         |
 | West North Central   | 0.000%            | -                  | 160.000%          | -                 | -                 | -                 | 3.708%           |
 
+</div>
 
 <div style="overflow-x: auto;">
   
@@ -141,9 +175,12 @@ We will analyze the missingness of OUTAGE.DURATION. This was done by running a p
 There is an observed TVD of 0.315 with a pvalue of 0, indicating a strong rejection of the null hypothesis at a 95% confidence level. Therefore, the distribution of NERC Region is different when Duration is missing vs not missing.
 
 
-
-
-
+<iframe
+  src="figs/plotTVD.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 #### 3.2.2 Customers Affected on Outage Duration
@@ -151,6 +188,13 @@ There is an observed TVD of 0.315 with a pvalue of 0, indicating a strong reject
 - Alternate Hypothesis: The distribution of Customers Affected is different when Duration is missing vs not missing.
 
 There is an observed Difference in Means of -20599.733 with a pvalue of 0.6181, indicating we cannot reject the null hypothesis at a 95% confidence level. Therefore, the distribution of Customers Affected is different when Duration is missing vs not missing.
+
+<iframe
+  src="figs/plotTVD2.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 ## Hypothesis Testing
 
@@ -165,7 +209,12 @@ We will use a significance level of 0.05.
 
 The p-value is 0.0002, indicating we have a strong rejection of the null hypothesis at a 95% confidence level. Therefore, the average outage duration is different for at least one climate region compared to others.
 
-
+<iframe
+  src="figs/plotTVD3.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 
