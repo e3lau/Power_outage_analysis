@@ -270,7 +270,7 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
   <table style="border-collapse: collapse; width: 100%;">
     <thead style="background-color: #f2f2f2;">
       <tr>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">CLIMATE REGION</th>
+        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">CLIMATE.REGION</th>
         <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">(-0.001, 0.00208]</th>
         <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">(0.00208, 0.00871]</th>
         <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">(0.00871, 0.0164]</th>
@@ -283,97 +283,98 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
     <tbody>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">Central</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">38.614%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">37.659%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">30.498%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">52.065%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">42.851%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">72.933%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">76.238%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">38.614035</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">37.659091</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">30.498246</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">52.065351</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">42.850667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">72.933333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">76.238235</td>
       </tr>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">East North Central</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">92.340%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">3.194%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">65.379%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">48.868%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">69.617%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">80.919%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">77.249%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">92.340000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">3.194444</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">65.378986</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">48.868254</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">69.616667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">80.918750</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">77.248611</td>
       </tr>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">Northeast</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">3.630%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">74.265%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">57.497%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">62.440%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">58.727%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">80.088%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">85.485%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">3.630159</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">74.264912</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">57.497101</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">62.439506</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">58.727222</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">80.087879</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">85.485000</td>
       </tr>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">Northwest</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">5.534%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">14.783%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">97.583%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">66.000%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">39.413%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">64.910%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">148.097%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">5.533951</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">14.783333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">97.583333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">66.000000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">39.413333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">64.909722</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">148.096667</td>
       </tr>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">South</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">15.548%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">28.059%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">45.348%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">74.736%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">57.126%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">58.412%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">156.722%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">15.547727</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">28.059302</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">45.348246</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">74.735556</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">57.126190</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">58.411905</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">156.721667</td>
       </tr>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">Southeast</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">69.140%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">11.717%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">34.024%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">14.966%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">41.818%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">44.206%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">52.389%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">69.140351</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">11.716667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">34.024405</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">14.965686</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">41.817647</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">44.206000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">52.389216</td>
       </tr>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">Southwest</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">6.611%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">1.883%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">3.400%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">1.756%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">40.417%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">27.021%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">12.979%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">6.611333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">1.883333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">3.400000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">1.755556</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">40.416667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">27.020833</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">12.979167</td>
       </tr>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">West</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">26.175%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">41.262%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">19.522%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">22.511%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">37.860%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">52.617%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">119.704%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">26.175309</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">41.262381</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">19.521795</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">22.511111</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">37.860000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">52.616667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">119.704167</td>
       </tr>
       <tr>
         <td style="padding: 5px; border: 1px solid #ddd;">West North Central</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.000%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">160.000%</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">3.708%</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">0.000000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">NaN</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">160.000000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">NaN</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">NaN</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">NaN</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">3.708333</td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 <div style="overflow-x:auto;">
   <table style="border-collapse: collapse; width: 100%;">
