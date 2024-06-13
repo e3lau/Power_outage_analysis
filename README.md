@@ -408,51 +408,51 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">46.691801</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">22.765432</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">155.955556</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: left;">East North Central</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">84.725926</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">108.236145</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">47.550926</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: left;">Northeast</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">45.147504</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">54.369501</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: left;">Northwest</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">21.408333</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: left;">South</td>
@@ -461,63 +461,63 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">49.619048</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">40.557602</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">227.500000</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">6.353333</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">49.342901</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: left;">Southeast</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">19.400000</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">23.736598</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">71.185271</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">6.2</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: left;">Southwest</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">0.016667</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">1.266667</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">35.666667</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">26.588824</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: left;">West</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">3.716667</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">27.253676</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: left;">West North Central</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">0.983333</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">2.650000</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">29.383333</td>
         <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">0.727083</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
-        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">NaN</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
+        <td style="border: 1px solid #ddd; padding: 5px; text-align: center;">...</td>
       </tr>
     </tbody>
   </table>
