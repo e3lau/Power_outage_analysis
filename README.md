@@ -104,25 +104,25 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
 | Southeast            | 69.140%           | 11.717%            | 34.024%           | 14.966%           | 41.818%           | 44.206%           | 52.389%          |
 | Southwest            | 6.611%            | 1.883%             | 3.400%            | 1.756%            | 40.417%           | 27.021%           | 12.979%          |
 | West                 | 26.175%           | 41.262%            | 19.522%           | 22.511%           | 37.860%           | 52.617%           | 119.704%         |
-| West North Central   | 0.000%            | NaN                | 160.000%          | NaN               | NaN               | NaN               | 3.708%           |
+| West North Central   | 0.000%            | -                  | 160.000%          | -                 | -                 | -                 | 3.708%           |
 
 
-<table>
+<div style="overflow-x: auto;">
   
 | NERC.REGION        | ECAR       | RFC        | SERC       | SPP        | MRO        | NPCC       | WECC       | TRE        | FRCC       | FRCC, SERC |
 |--------------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
 | CLIMATE.REGION     |            |            |            |            |            |            |            |            |            |            |
-| Central            | 111.161    | 46.692     | 22.765     | 155.956    | NaN        | NaN        | NaN        | NaN        | NaN        | NaN        |
-| East North Central | 84.726     | 108.236    | NaN        | NaN        | 47.551     | NaN        | NaN        | NaN        | NaN        | NaN        |
-| Northeast          | NaN        | 45.148     | NaN        | NaN        | NaN        | 54.370     | NaN        | NaN        | NaN        | NaN        |
-| Northwest          | NaN        | NaN        | NaN        | NaN        | NaN        | NaN        | 21.408     | NaN        | NaN        | NaN        |
-| South              | 87.938     | 5.000      | 49.619     | 40.558     | 227.500    | NaN        | 6.353      | 49.343     | NaN        | NaN        |
-| Southeast          | NaN        | 19.400     | 23.737     | NaN        | NaN        | NaN        | NaN        | NaN        | 71.185     | 6.200      |
-| Southwest          | NaN        | 0.017      | NaN        | 1.267      | 35.667     | NaN        | 26.589     | NaN        | NaN        | NaN        |
-| West               | NaN        | NaN        | 3.717      | NaN        | NaN        | NaN        | 27.254     | NaN        | NaN        | NaN        |
-| West North Central | NaN        | 0.983      | NaN        | 2.650      | 29.383     | NaN        | 0.727      | NaN        | NaN        | NaN        |
+| Central            | 111.161    | 46.692     | 22.765     | 155.956    | -          | -          | -          | -          | -          | -          |
+| East North Central | 84.726     | 108.236    | -          | -          | 47.551     | -          | -          | -          | -          | -          |
+| Northeast          | -          | 45.148     | -          | -          | -          | 54.370     | -          | -          | -          | -          |
+| Northwest          | -          | -          | -          | -          | -          | -          | 21.408     | -          | -          | -          |
+| South              | 87.938     | 5.000      | 49.619     | 40.558     | 227.500    | -          | 6.353      | 49.343     | -          | -          |
+| Southeast          | -          | 19.400     | 23.737     | -          | -          | -          | -          | -          | 71.185     | 6.200      |
+| Southwest          | -          | 0.017      | -          | 1.267      | 35.667     | -          | 26.589     | -          | -          | -          |
+| West               | -          | -          | 3.717      | -          | -          | -          | 27.254     | -          | -          | -          |
+| West North Central | -          | 0.983      | -          | 2.650      | 29.383     | -          | 0.727      | -          | -          | -          |
 
-</table>
+</div>
 
 ## Assessment of Missingness
 
