@@ -274,17 +274,14 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
         <th colspan="8" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">% of Affected Persons of a U.S. State</th>
       </tr>
       <tr>
-        <th rowspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">Climate Region</th>
-      </tr>
-      <tr>
-        <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">Central</th>
-        <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">East North Central</th>
-        <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">Northeast</th>
-        <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">Northwest</th>
-        <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">South</th>
-        <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">Southeast</th>
-        <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">Southwest</th>
-        <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">West</th>
+        <th rowspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">CLIMATE.REGION</th>
+        <th colspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">(-0.001, 0.00208]</th>
+        <th colspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">(0.00208, 0.00871]</th>
+        <th colspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">(0.00871, 0.0164]</th>
+        <th colspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">(0.0164, 0.0243]</th>
+        <th colspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">(0.0243, 0.0354]</th>
+        <th colspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">(0.0354, 0.0633]</th>
+        <th colspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">(0.0633, 1.055]</th>
       </tr>
     </thead>
     <tbody>
