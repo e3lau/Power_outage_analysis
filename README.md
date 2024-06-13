@@ -270,7 +270,8 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
   <table style="border-collapse: collapse; width: 100%;">
     <thead>
       <tr>
-        <th colspan="9" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">% of Affected Persons of a U.S. State</th>
+        <th colspan="1" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;"></th>
+        <th colspan="8" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">% of Affected Persons of a U.S. State</th>
       </tr>
       <tr>
         <th rowspan="2" style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 5px; text-align: center;">Climate Region</th>
