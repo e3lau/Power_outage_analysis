@@ -63,152 +63,108 @@ It is important to note that OUTAGE.DURATION has been converted to hours.
 
 <div style="overflow-x:auto;">
   <table style="border-collapse: collapse; width: 100%;">
-    <thead style="background-color: #f2f2f2;">
+    <thead>
       <tr>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">OBS</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">YEAR</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">MONTH</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">U.S. STATE</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">POSTAL CODE</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">NERC REGION</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">CLIMATE REGION</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">ANOMALY LEVEL</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">CLIMATE CATEGORY</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">CAUSE CATEGORY</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">OUTAGE DURATION</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">...</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">COM CUST PCT</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">IND CUST PCT</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">POPULATION</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">POPPCT URBAN</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">POPPCT UC</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">POPDEN URBAN</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">POPDEN UC</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">AREAPCT URBAN</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">AREAPCT UC</th>
-        <th style="padding: 5px; border: 1px solid #ddd; text-align: left;">PCT LAND</th>
+        <th style="padding: 5px; border: 1px solid #ddd; width: 200px;"></th>
+        <th style="padding: 5px; border: 1px solid #ddd; text-align: center;">(-0.001, 0.00208]</th>
+        <th style="padding: 5px; border: 1px solid #ddd; text-align: center;">(0.00208, 0.00871]</th>
+        <th style="padding: 5px; border: 1px solid #ddd; text-align: center;">(0.00871, 0.0164]</th>
+        <th style="padding: 5px; border: 1px solid #ddd; text-align: center;">(0.0164, 0.0243]</th>
+        <th style="padding: 5px; border: 1px solid #ddd; text-align: center;">(0.0243, 0.0354]</th>
+        <th style="padding: 5px; border: 1px solid #ddd; text-align: center;">(0.0354, 0.0633]</th>
+        <th style="padding: 5px; border: 1px solid #ddd; text-align: center;">(0.0633, 1.055]</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="padding: 5px; border: 1px solid #ddd;">1</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2011</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">7.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">Minnesota</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MN</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MRO</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">East North Central</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">-0.3</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">normal</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">severe weather</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">51.000000</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">...</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">10.644005</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.411181</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">5348119</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">73.27</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">15.28</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2279.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">1700.5</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2.14</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.6</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">91.592666</td>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">Central</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">38.614035</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">37.659091</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">30.498246</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">52.065351</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">42.850667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">72.933333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">76.238235</td>
       </tr>
       <tr>
-        <td style="padding: 5px; border: 1px solid #ddd;">2</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2014</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">5.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">Minnesota</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MN</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MRO</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">East North Central</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">-0.1</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">normal</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">intentional attack</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.016667</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">...</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">10.791609</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.374820</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">5457125</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">73.27</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">15.28</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2279.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">1700.5</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2.14</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.6</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">91.592666</td>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">East North Central</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">92.340000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">3.194444</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">65.378986</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">48.868254</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">69.616667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">80.918750</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">77.248611</td>
       </tr>
       <tr>
-        <td style="padding: 5px; border: 1px solid #ddd;">3</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2010</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">10.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">Minnesota</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MN</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MRO</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">East North Central</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">-1.5</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">cold</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">severe weather</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">50.000000</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">...</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">10.687018</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.392361</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">5310903</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">73.27</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">15.28</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2279.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">1700.5</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2.14</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.6</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">91.592666</td>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">Northeast</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">3.630159</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">74.264912</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">57.497101</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">62.439506</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">58.727222</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">80.087879</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">85.485000</td>
       </tr>
       <tr>
-        <td style="padding: 5px; border: 1px solid #ddd;">4</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2012</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">6.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">Minnesota</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MN</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MRO</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">East North Central</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">-0.1</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">normal</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">severe weather</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">42.500000</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">...</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">10.682239</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.422355</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">5380443</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">73.27</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">15.28</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2279.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">1700.5</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2.14</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.6</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">91.592666</td>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">Northwest</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">5.533951</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">14.783333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">97.583333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">66.000000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">39.413333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">64.909722</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">148.096667</td>
       </tr>
       <tr>
-        <td style="padding: 5px; border: 1px solid #ddd;">5</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2015</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">7.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">Minnesota</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MN</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">MRO</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">East North Central</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">1.2</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">warm</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">severe weather</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">29.000000</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">...</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">10.811320</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.367005</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">5489594</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">73.27</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">15.28</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2279.0</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">1700.5</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">2.14</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">0.6</td>
-        <td style="padding: 5px; border: 1px solid #ddd;">91.592666</td>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">South</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">15.547727</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">28.059302</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">45.348246</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">74.735556</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">57.126190</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">58.411905</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">156.721667</td>
+      </tr>
+      <tr>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">Southeast</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">69.140351</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">11.716667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">34.024405</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">14.965686</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">41.817647</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">44.206000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">52.389216</td>
+      </tr>
+      <tr>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">Southwest</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">6.611333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">1.883333</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">3.400000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">1.755556</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">40.416667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">27.020833</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">12.979167</td>
+      </tr>
+      <tr>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">West</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">26.175309</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">41.262381</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">19.521795</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">22.511111</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">37.860000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">52.616667</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">119.704167</td>
+      </tr>
+      <tr>
+        <td style="padding: 5px; border: 1px solid #ddd; text-align: left;">West North Central</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">0.000000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">NaN</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">160.000000</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">NaN</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">NaN</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">NaN</td>
+        <td style="padding: 5px; border: 1px solid #ddd;">3.708333</td>
       </tr>
     </tbody>
   </table>
