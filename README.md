@@ -710,6 +710,7 @@ Numerical Columns Evaluated:
 
 The only column which did not pass the fairness test was PODDEN_UC. The observed statistic was 1.419; the p-value is 0.033 at a 95% confidence level, therefore, we reject the null hypothesis. The model's RMSE for population density of urban clusters above 1528.6 is significantly different (higher) compared to those less than 1528.6, indicating potential unfairness in performance.
 
+In conclusion, this project delved into the complexities of power outages across the United States from 2000 to 2016, exploring their duration and demographic influences. Through meticulous data cleaning and exploratory analysis, we identified weather-related causes as predominant factors contributing to outage severity and duration, particularly during Fall and Winter months. Our findings underscored the critical role of demographic factors such as urbanization, population density, and customer distribution in shaping outage impacts. Moving forward, these insights can inform targeted interventions and resource allocation strategies for utilities and policymakers aiming to enhance outage management and resilience. By refining predictive models based on geographical and demographic characteristics, we aim to provide more accurate tools for anticipating and mitigating the impact of power outages on communities nationwide.
 
 
 
