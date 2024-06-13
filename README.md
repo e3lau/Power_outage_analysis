@@ -1,7 +1,7 @@
 # POWER OUTAGE ANALYSIS
 A UCSD DSC 80 Project, by Ethan Lau
 
-## Introduction
+## INTRODUCTION
 ### 1.1: General Overview
 This project centralizes around the power outages dataset which contains a listing of 1,534 major power outages occuring between January of 2000 to July 2016. The outages reported in this data file affected a single U.S. state at the time of each outage occurrence.
 
@@ -39,7 +39,7 @@ The primary question of research to which this project will analyze how geograph
 | PCT_LAND                | Percentage of land area in the U.S. state as compared to the overall land area in the continental U.S. | Percentage     |
 
 
-## Data Cleaning and Exploratory Data Analysis
+## DATA CLEANING & EXPLORATORY DATA ANALYSIS
 ### 2.1: Data Cleaning
 The process for which the data was cleaned is as follows:
 1. Raw data xlsx excel file was converted into a CSV file to accomodate pandas' read_csv functionality.
@@ -523,7 +523,7 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
   </table>
 </div>
 
-## Assessment of Missingness
+## ASSESSMENT OF MISSINGNESS
 
 ### 3.1: NMAR
 One potential candidate for NMAR could be our dependent variable OUTAGE.DURATION. This variable indicates the duration of power outages, and its missingness might be directly related to the severity or type of the outage itself. For instance, if an outage was particularly short or insignificant, it might not have been reported or recorded with the same rigor as a more severe or longer-lasting outage. This means that the missingness of OUTAGE.DURATION could be inherently related to the value of OUTAGE.DURATION itself, making it NMAR.
@@ -561,7 +561,7 @@ There is an observed Difference in Means of -20599.733 with a pvalue of 0.6181, 
   frameborder="0"
 ></iframe>
 
-## Hypothesis Testing
+## HYPOTHESIS TESTING
 
 We will test whether the average outage duration differ between different climate regions. The relevant columns for this test are OUTAGE.DURATION and CLIMATE.REGION.
 - Null Hypothesis (H0): The average outage duration is the same for all climate regions.
@@ -590,7 +590,7 @@ The p-value is 0.0002, indicating we have a strong rejection of the null hypothe
 
 
 
-## Framing a Prediction Problem
+## FRAMING A PREDICTION PROBLEM
 
 Prediction Problem: Predicting the duration of a power outage (OUTAGE.DURATION) based on various demographic and geographical characteristics of the affected area.
 
@@ -630,18 +630,17 @@ These features are chosen because they represent different aspects of geographic
 Metric for Evaluation: Mean Absolute Error (MAE)
 Justification for Metric: MAE is chosen as the evaluation metric because it provides a straightforward interpretation of the average magnitude of errors in the predicted outage duration. It is easy to understand and useful for comparing the performance of different models. Additionally, MAE is less sensitive to outliers compared to other metrics like Mean Squared Error (MSE).
 
-## Baseline Model
+## BASELINE MODEL
 
-For the baseline model, I'll use a simple linear regression model with two features: "POPULATION" and "POPPCT_URBAN". These features represent demographic and geographical characteristics that might influence the duration of a power outage.
+For the baseline model, we will use a simple linear regression model with two features: POPULATION and POPPCT_URBAN. These features represent demographic and geographical characteristics that might influence the duration of a power outage. Given many of the demographics are similar in nature, this is a concise indicator of where some of the characteristics of U.S. States affect Outage Duration.
 
-Here's how I'll implement the baseline model using scikit-learn:
+Feature Transformation: "U.S._STATE" and "NERC.REGION" are categorical variables and will thereby be encoded using one-hot encoding. For simplicity, we will ignore other categorical variables for this baseline model.
+Model Training: Simple linear regression model to predict the duration of a power outage based on the transformed features.
 
-Feature Transformation: Since "U.S._STATE" and "NERC.REGION" are categorical variables, I'll encode them using one-hot encoding. For simplicity, I'll ignore other categorical variables for this baseline model.
-
-Model Training: I'll use a simple linear regression model to predict the duration of a power outage based on the transformed features.
+The Baseline Model MAE is 48.256. See juipter notebook file for methodology
 
 
-## Step 7: Final Model
+## FINAL MODEL
 
 We will improve upon the baseline model by engineering new features, encoding categorical variables, and performing hyperparameter tuning.
 
@@ -663,11 +662,53 @@ Model Selection:
 - Ridge with and without polynomial features
 
 
+Results Summary:
+
+Lasso Model:
+- Best parameters: {'model__alpha': 0.1, 'model__max_iter': 10000, 'poly__degree': 3}
+- Best Test MAE: 47.798
+Ridge Model:
+- Best parameters: {'model__alpha': 10, 'model__max_iter': 1000, 'poly__degree': 3}
+- Best Test MAE: 47.092
+
+Among the models tested, the Ridge regression model with polynomial features and tuned hyperparameters achieved the lowest Test MAE of 47.092. This represents a significant improvement over the baseline model's MAE of 48.256, indicating the effectiveness of the feature engineering, encoding, and hyperparameter tuning strategies employed.
 
 
+## FAIRNESS ANALYSIS
 
+To perform a fairness analysis on the final model predicting outage duration, we extracted all numerical columns and performed permutation test where group x was those above the 50th percentile of values and group y was those below for each numerical column. The appropriate evaluation metric is Root Mean Squared Error (RMSE).
 
+Null Hypothesis: The model's RMSE for the numerical column are roughly the same, any differences observed are due to random chance.
+Alternative Hypothesis: The model's RMSE for the upper 50th percentile of the numerical column is significantly different (higher) compared to those less than the 50th percentile, indicating potential unfairness in performance.
 
+Numerical Columns Evaluated:
+- YEAR
+- MONTH
+- ANOMALY.LEVEL
+- OUTAGE.DURATION
+- CUSTOMERS.AFFECTED
+- AFFECTED_PCT
+- RES.CUSTOMERS
+- COM.CUSTOMERS
+- IND.CUSTOMERS
+- TOTAL.CUSTOMERS
+- RES.CUST.PCT
+- COM.CUST.PCT
+- IND.CUST.PCT
+- POPULATION
+- POPPCT_URBAN
+- POPPCT_UC
+- POPDEN_URBAN
+- POPDEN_UC
+- AREAPCT_URBAN
+- AREAPCT_UC
+- PCT_LAND
+- TOTAL_URBAN_POPULATION
+- RES_TO_TOTAL_CUSTOMERS_RATIO
+- POP_DENSITY_RATIO
+- URBAN_CUSTOMERS_RATIO
+
+The only column which did not pass the fairness test was PODDEN_UC. The observed statistic was 1.419; the p-value is 0.033 at a 95% confidence level, therefore, we reject the null hypothesis. The model's RMSE for population density of urban clusters above 1528.6 is significantly different (higher) compared to those less than 1528.6, indicating potential unfairness in performance.
 
 
 
