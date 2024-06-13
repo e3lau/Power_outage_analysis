@@ -77,6 +77,14 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
 1. Time Considerations:
     - As urbanization increases, the amount of locations requiring power also increase. This auguments the number of possible faliure points. As time increases, there is a noticible increase in the number of outages per year from 2018 onwards.
     - It seems that there are longer outages during the Fall and Winter months of the year on average, likely due to more inclimate weather. There are also higher quantaties of outages during said months of the year.
+
+<iframe
+  src="figs/plot1.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 2. Cause differentiations:
     - When comparing the different causes for outages, weather is the most significant reason in quantity. It is also results on average in longer outages when compared to the other causes therefore this likely needs to be controlled for.
 3. Number of Customers Affected:
@@ -100,8 +108,6 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
 
 
 
-
-<div style="overflow-x: auto;">
   
 | NERC.REGION        | ECAR       | RFC        | SERC       | SPP        | MRO        | NPCC       | WECC       | TRE        | FRCC       | FRCC, SERC |
 |--------------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
@@ -115,8 +121,6 @@ Firstly, our dependent variable is outage duration. This can be calculated by su
 | Southwest          | NaN        | 0.017      | NaN        | 1.267      | 35.667     | NaN        | 26.589     | NaN        | NaN        | NaN        |
 | West               | NaN        | NaN        | 3.717      | NaN        | NaN        | NaN        | 27.254     | NaN        | NaN        | NaN        |
 | West North Central | NaN        | 0.983      | NaN        | 2.650      | 29.383     | NaN        | 0.727      | NaN        | NaN        | NaN        |
-
-</div>
 
 
 ## Assessment of Missingness
