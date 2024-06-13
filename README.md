@@ -61,16 +61,157 @@ In regards to the missingness of particular column values from out selected pool
 
 It is important to note that OUTAGE.DURATION has been converted to hours.
 
-<div style="overflow-x: auto;">
-
-| OBS | YEAR | MONTH | U.S._STATE | POSTAL.CODE | NERC.REGION | CLIMATE.REGION | ANOMALY.LEVEL | CLIMATE.CATEGORY | CAUSE.CATEGORY | OUTAGE.DURATION | ... | COM.CUST.PCT | IND.CUST.PCT | POPULATION | POPPCT_URBAN | POPPCT_UC | POPDEN_URBAN | POPDEN_UC | AREAPCT_URBAN | AREAPCT_UC | PCT_LAND |
-|-----|------|-------|-------------|--------------|--------------|-----------------|-----------------|------------------|----------------|------------------|-----|--------------|---------------|------------|---------------|------------|--------------|-----------|----------------|-------------|----------|
-| 1   | 2011 | 7.0   | Minnesota   | MN           | MRO          | East North Central | -0.3            | normal           | severe weather | 51.000000        | ... | 10.644005    | 0.411181      | 5348119    | 73.27         | 15.28      | 2279.0       | 1700.5    | 2.14           | 0.6         | 91.592666 |
-| 2   | 2014 | 5.0   | Minnesota   | MN           | MRO          | East North Central | -0.1            | normal           | intentional attack | 0.016667        | ... | 10.791609    | 0.374820      | 5457125    | 73.27         | 15.28      | 2279.0       | 1700.5    | 2.14           | 0.6         | 91.592666 |
-| 3   | 2010 | 10.0  | Minnesota   | MN           | MRO          | East North Central | -1.5            | cold             | severe weather | 50.000000        | ... | 10.687018    | 0.392361      | 5310903    | 73.27         | 15.28      | 2279.0       | 1700.5    | 2.14           | 0.6         | 91.592666 |
-| 4   | 2012 | 6.0   | Minnesota   | MN           | MRO          | East North Central | -0.1            | normal           | severe weather | 42.500000        | ... | 10.682239    | 0.422355      | 5380443    | 73.27         | 15.28      | 2279.0       | 1700.5    | 2.14           | 0.6         | 91.592666 |
-| 5   | 2015 | 7.0   | Minnesota   | MN           | MRO          | East North Central | 1.2             | warm             | severe weather | 29.000000        | ... | 10.811320    | 0.367005      | 5489594    | 73.27         | 15.28      | 2279.0       | 1700.5    | 2.14           | 0.6         | 91.592666 |
-
+<div style="overflow-x:auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>OBS</th>
+        <th>YEAR</th>
+        <th>MONTH</th>
+        <th>U.S. STATE</th>
+        <th>POSTAL.CODE</th>
+        <th>NERC.REGION</th>
+        <th>CLIMATE.REGION</th>
+        <th>ANOMALY.LEVEL</th>
+        <th>CLIMATE.CATEGORY</th>
+        <th>CAUSE.CATEGORY</th>
+        <th>OUTAGE.DURATION</th>
+        <th>...</th>
+        <th>COM.CUST.PCT</th>
+        <th>IND.CUST.PCT</th>
+        <th>POPULATION</th>
+        <th>POPPCT_URBAN</th>
+        <th>POPPCT_UC</th>
+        <th>POPDEN_URBAN</th>
+        <th>POPDEN_UC</th>
+        <th>AREAPCT_URBAN</th>
+        <th>AREAPCT_UC</th>
+        <th>PCT_LAND</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2011</td>
+        <td>7.0</td>
+        <td>Minnesota</td>
+        <td>MN</td>
+        <td>MRO</td>
+        <td>East North Central</td>
+        <td>-0.3</td>
+        <td>normal</td>
+        <td>severe weather</td>
+        <td>51.000000</td>
+        <td>...</td>
+        <td>10.644005</td>
+        <td>0.411181</td>
+        <td>5348119</td>
+        <td>73.27</td>
+        <td>15.28</td>
+        <td>2279.0</td>
+        <td>1700.5</td>
+        <td>2.14</td>
+        <td>0.6</td>
+        <td>91.592666</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2014</td>
+        <td>5.0</td>
+        <td>Minnesota</td>
+        <td>MN</td>
+        <td>MRO</td>
+        <td>East North Central</td>
+        <td>-0.1</td>
+        <td>normal</td>
+        <td>intentional attack</td>
+        <td>0.016667</td>
+        <td>...</td>
+        <td>10.791609</td>
+        <td>0.374820</td>
+        <td>5457125</td>
+        <td>73.27</td>
+        <td>15.28</td>
+        <td>2279.0</td>
+        <td>1700.5</td>
+        <td>2.14</td>
+        <td>0.6</td>
+        <td>91.592666</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>2010</td>
+        <td>10.0</td>
+        <td>Minnesota</td>
+        <td>MN</td>
+        <td>MRO</td>
+        <td>East North Central</td>
+        <td>-1.5</td>
+        <td>cold</td>
+        <td>severe weather</td>
+        <td>50.000000</td>
+        <td>...</td>
+        <td>10.687018</td>
+        <td>0.392361</td>
+        <td>5310903</td>
+        <td>73.27</td>
+        <td>15.28</td>
+        <td>2279.0</td>
+        <td>1700.5</td>
+        <td>2.14</td>
+        <td>0.6</td>
+        <td>91.592666</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>2012</td>
+        <td>6.0</td>
+        <td>Minnesota</td>
+        <td>MN</td>
+        <td>MRO</td>
+        <td>East North Central</td>
+        <td>-0.1</td>
+        <td>normal</td>
+        <td>severe weather</td>
+        <td>42.500000</td>
+        <td>...</td>
+        <td>10.682239</td>
+        <td>0.422355</td>
+        <td>5380443</td>
+        <td>73.27</td>
+        <td>15.28</td>
+        <td>2279.0</td>
+        <td>1700.5</td>
+        <td>2.14</td>
+        <td>0.6</td>
+        <td>91.592666</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>2015</td>
+        <td>7.0</td>
+        <td>Minnesota</td>
+        <td>MN</td>
+        <td>MRO</td>
+        <td>East North Central</td>
+        <td>1.2</td>
+        <td>warm</td>
+        <td>severe weather</td>
+        <td>29.000000</td>
+        <td>...</td>
+        <td>10.811320</td>
+        <td>0.367005</td>
+        <td>5489594</td>
+        <td>73.27</td>
+        <td>15.28</td>
+        <td>2279.0</td>
+        <td>1700.5</td>
+        <td>2.14</td>
+        <td>0.6</td>
+        <td>91.592666</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ### 1.4: Exploratory Data Analysis
